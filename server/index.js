@@ -25,6 +25,6 @@ mongoose
     console.log(err);
   });
 
-app.listen(port, () => {
+app.listen(port, "0.0.0.0", () => {
   console.log(`connected at ${port}`);
 });
